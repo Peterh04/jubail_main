@@ -1,0 +1,66 @@
+.yt-carousel {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.yt-track {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.4s ease;
+}
+
+.yt-item {
+  flex-shrink: 0;
+}
+
+.video-card {
+  position: relative;
+
+  border-radius: 0px;
+
+  overflow: hidden;
+}
+
+.video-card iframe {
+  width: 100%;
+  min-height: 130px;
+
+  aspect-ratio: 16 / 9;
+  display: block;
+}
+
+.video-link-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 2;
+}
+
+.next-btn,
+.prev-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: white;
+
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+
+  cursor: pointer;
+
+  z-index: 10;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn {
+  left: 10px;
+}

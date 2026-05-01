@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 55vh;
+
+  background: white;
+
+  padding: 2rem;
+
+  margin-top: 100px;
+
+  gap: 2rem;
+
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer > .location_contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  background-color: transparent;
+}
+
+.icon {
+  color: #0e1e30;
+}
+
+.location_contacts > h2 {
+  color: #00244a;
+}
+
+.location_contacts > p {
+  color: #0e1e30;
+  line-height: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.footer > .shortcut-links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+.shortcut-links > h2 {
+  color: #00244a;
+}
+
+.shortcut-links > p {
+  color: #0e1e30;
+  line-height: 45px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
